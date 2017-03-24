@@ -1,0 +1,42 @@
+{
+  "name": "openmind",
+  "version": "1.0.0",
+  "description": "node练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buildify": "^0.4.0",
+    "cli-color": "^1.1.0",
+    "finalhandler": "^0.5.1",
+    "fs-extra": "^1.0.0",
+    "get-port": "^2.1.0",
+    "http-proxy": "^1.16.2",
+    "imagemin": "^5.2.2",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-pngquant": "^5.0.0",
+    "imagemin-svgo": "^5.2.0",
+    "inquirer": "^2.0.0",
+    "lsofi": "^1.0.0",
+    "mime-types": "^2.1.13",
+    "multistream": "^2.1.0",
+    "optimist": "^0.6.1",
+    "pretty-bytes": "^4.0.2",
+    "serve-index": "^1.8.0",
+    "static-combo": "^1.0.19",
+    "uglify-js": "^2.7.5",
+    "yargs": "^6.5.0"
+  },
+  "bin": {
+    "opm": "./bin/opm.js"
+  }
+}
