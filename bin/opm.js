@@ -8,7 +8,7 @@ var fs = require('fs');
 var inquirer = require('inquirer');
 var opm = require('../lib/index');
 
-// 命令
+// 子命令
 var command = argv._[0];
 
 if(!command){
@@ -48,11 +48,11 @@ function createConfig(){
 	var questions = [{
 		type:"input",
 		name:"svntest",
-		message:"请输入svn测试文件夹目录:"
+		message:"请输入测试环境对应的本地目录:"
 	},{
 		type:"input",
 		name:"svnonline",
-		message:"请输入svn测试文件夹目录:"
+		message:"请输入正式环境对应的本地目录:"
 	}];
 	inquirer.prompt(questions).then(function(answers){
 		opm.initConfig._init(answers);

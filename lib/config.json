@@ -1,12 +1,4 @@
 {
-  "svntest": "D:\\softInstall\\xampp\\htdocs\\SVN项目\\cdn.ljimg.com",
-  "svnonline": "D:\\\\softInstall\\\\xampp\\\\htdocs\\\\SVN项目\\\\cdn.ljimg.com",
-  "host": "cdn.leju.com",
-  "test": "10.207.0.202",
-  "online": "123.59.190.238",
-  "https": {
-    "key": ".\\https\\privatekey.pem",
-    "cert": ".\\https\\certificate.pem",
-    "ca": ".\\https\\ca.crt"
-  }
+  "svntest": "/Users/baoxiangdong/Desktop",
+  "svnonline": "/Users/baoxiangdong/Desktop"
 }
